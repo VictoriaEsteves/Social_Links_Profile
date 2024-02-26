@@ -52,10 +52,15 @@ Extra large screens, TV – 1201px, and more.
 
 @media screen and (min-width: 1025px) {
     main {
-        max-width: 34%;
-        padding: 3% 3%;
+        max-width: 20%;
+        padding: 2.5% 1.5%;
 
     }
+
+    img {
+        width: 30%;
+    }
+
     h2 {
         font-family: InterBold;
         font-size: 30px;
