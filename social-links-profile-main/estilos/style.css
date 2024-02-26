@@ -84,5 +84,6 @@ a {
 
 button:hover {
     background-color: var(--ver);
-    color: var(--escc);
+    color: var(--pre);
+    cursor: pointer;
 }
