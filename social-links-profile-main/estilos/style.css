@@ -9,7 +9,7 @@
 :root {
     
     --cin: hsl(0, 0%, 20%);
-    --bra: hsl(0, 0%, 100%);
+    --bra: hsla(0, 0%, 100%, 0.856);
     --escc: hsl(0, 0%, 12%);
     --pre: hsl(0, 0%, 8%);
     --ver: hsl(75, 94%, 57%);
@@ -19,6 +19,7 @@
 
 body {
     background-color: var(--pre);
+    font-family: var(--font);
 }
 
 main {
@@ -36,6 +37,21 @@ h2,h3,p {
     padding: 2%;
 }
 
+h2 {
+    color: var(--bra);
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+p {
+    color: var(--bra);
+    font-weight: 400;
+    font-size: 14px;
+}
+
 img {
     border-radius: 50%;
     width: 45%;
@@ -47,4 +63,12 @@ h3 {
 
 button {
     display: flex;
+    margin: 5% auto;
+    padding: 5%;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--cin);
+    color: var(--bra);
+    font-weight: 700;
 }
