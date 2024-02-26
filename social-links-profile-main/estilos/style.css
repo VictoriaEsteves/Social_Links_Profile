@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import url('https://fonts.google.com/specimen/Inter');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    
+    --cin: hsl(0, 0%, 20%);
+    --bra: hsl(0, 0%, 100%);
+    --escc: hsl(0, 0%, 12%);
+    --pre: hsl(0, 0%, 8%);
+    --ver: hsl(75, 94%, 57%);
+
+    --font: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--pre);
+}
+
+main {
+    background-color: var(--escc);
+    max-width: 80%;
+    text-align: center;
+    font-family: var(--font);
+}
+
+img {
+    border-radius: 50%;
+    width: 45%;
+}
+
+button {
+    display: flex;
+}
