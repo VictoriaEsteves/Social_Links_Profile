@@ -36,7 +36,6 @@ Extra large screens, TV – 1201px, and more.
     main {
         max-width: 33%;
         padding: 3% 3%;
-        
     }
 
     h3,p {
@@ -51,10 +50,19 @@ Extra large screens, TV – 1201px, and more.
 }
 
 @media screen and (min-width: 1025px) {
+
+    body {
+        height: 100vh;
+        position: relative;
+    }
     main {
         max-width: 20%;
         padding: 2.5% 1.5%;
+        position: absolute;
 
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
     }
 
     img {
