@@ -81,3 +81,8 @@ a {
     text-decoration: none;
     color: var(--bra);
 }
+
+button:hover {
+    background-color: var(--ver);
+    color: var(--escc);
+}
