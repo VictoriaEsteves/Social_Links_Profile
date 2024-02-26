@@ -1,2 +1,26 @@
 @charset "UTF-8";
+/*
+Mobile devices – 320px — 480px.
+iPads, Tablets – 481px — 768px.
+Small screens, laptops – 769px — 1024px.
+Desktops, large screens – 1025px — 1200px.
+Extra large screens, TV – 1201px, and more.
+*/
 
+:root {
+    
+    --cin: hsl(0, 0%, 20%);
+    --bra: hsla(0, 0%, 100%, 0.856);
+    --escc: hsl(0, 0%, 12%);
+    --pre: hsl(0, 0%, 8%);
+    --ver: hsl(75, 94%, 57%);
+
+    --font: "Inter", sans-serif;
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    main {
+        background-color: var(--ver);
+    }
+}
